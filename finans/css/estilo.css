@@ -1,0 +1,68 @@
+#home{
+background-color: rgb(23, 233, 23);
+color:white;
+
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+/*
+#secao2{
+   background: #343a40; 
+   color:white;
+}
+#secao3{
+    background: rgb(23, 233, 23);
+    color:white;
+ } 
+ #secao4{
+    background: #343a40; 
+    color:white;
+ }*/
+
+ .rotacionar{
+   transform: rotate(-10deg);
+ }
+ 
+ .selecao:hover{
+   padding: 20px;
+   box-shadow: 0px 3px rgb(23, 233, 23,0.4);
+   border-radius: 20px;
+
+ }
+
+ @keyframes animacao-telefone1{
+   from{
+      top: 0;
+      left:0;
+   }
+   to{
+      top: 0;
+      left: 500px;
+   }
+}
+
+   @keyframes animacao-telefone2{
+      from{
+         top: 0;
+         left:0;
+      }
+      to{
+         top: 0;
+         left: -300px;
+      }
+ }
+ .movimentar{
+  
+   position: relative;
+   animation: animacao-telefone1 3s 15s 2;
+   animation-direction: alternate;
+ }
+ .movimentar2{
+   
+   position: relative;
+   animation: animacao-telefone2 3s 15s 2;
+   animation-direction: alternate;
+ }
